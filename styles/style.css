@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.merriweather-normal {
+    font-family: "Merriweather", serif;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+/*Header-sec*/
+
+.header-container{
+    margin: 0px 160px;
+    padding: 24px 0px; 
+}
+
+.header-sub-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #0E0E0E;
+    font-family: "Fira Sans";
+    font-size: 32px;
+    font-weight: 700;
+}
+.button{
+    border: 0px none;
+}
+
+button{
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 1px solid #006A50;
+}
+
+.sgn-btn{
+    color: #006A50;
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+     
+}
+
+/*Hero-section*/
+
+.hero-sec{
+    width: 1280px;
+}
+
+.title{
+    color: rgba(14, 14, 14, 0.50);
+    font-family: "Fira Sans";
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.hero-container{
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 64px;
+    margin: 0px 160px;
+    border-radius: 24px;
+    background: #C6E4D6;
+    padding: 80px 60px;
+}
+
+.hero-sub-container{
+    width: 622px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading{
+    color: #0E0E0E;
+    font-family: "Fira Sans";
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.head-btn-parent{
+    width: 270px;
+    border-radius: 8px;
+    background: #006A50;
+    pad: 17px 34px;
+}
+
+.head-btn{
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+ 
