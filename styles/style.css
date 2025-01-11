@@ -16,8 +16,10 @@ body{
 
 /*Header-sec*/
 .header{
-    width: 1280px;
-    margin: 0px 160px;
+    max-width: 1280px;
+    /* margin: 0px 160px; */
+    margin-left: auto;
+    margin-right: auto;
 }
 .header-container{
 
@@ -60,8 +62,9 @@ button{
 /*Hero-section*/
 
 .hero-sec{
-    width: 1280px;
-    margin: 0px 160px 80px 160px;
+    max-width: 1280px;
+    margin: auto auto;
+    padding-bottom: 80px;
 }
 
 .title{
@@ -117,8 +120,8 @@ button{
 /*Third sec*/
  
 .vision-future-sec{
-    width: 1280px;
-    margin: 0px 160px;
+    max-width: 1280px;
+    margin: auto auto;
     padding-bottom: 80px;
 }
 
@@ -294,8 +297,8 @@ button{
 /*News sec*/
 
 .news-sec{
-    width: 1280px;
-    margin: 0px 160px;
+    max-width: 1280px;
+    margin: auto auto;
 }
 
 .news-container{
@@ -408,8 +411,8 @@ button{
 .news-sec2{
     display: flex;
     flex-direction: row-reverse;
-    width: 1280px;
-    margin: 0px 160px;
+    max-width: 1280px;
+    margin: auto auto;
 }
 
 .news-portal-section2{
