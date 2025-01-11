@@ -50,7 +50,7 @@ button{
     border: 1px solid #006A50;
 }
 
-.sgn-btn{
+.sgn-btn-child{
     color: #006A50;
     font-family: "Fira Sans";
     font-size: 18px;
@@ -59,6 +59,12 @@ button{
      
 }
 
+.sgn-btn-child:hover{
+    color: white;
+}
+.sgn-btn-parent:hover{
+    background-color: #006A50;
+}
 /*Hero-section*/
 
 .hero-sec{
@@ -116,7 +122,15 @@ button{
 
 }
 
+.head-btn-parent:hover{
+    background-color: white;
+    border: 1px solid #006A50;
+    
+}
 
+.head-btn:hover{
+    color: #006A50;
+}
 /*Third sec*/
  
 .vision-future-sec{
@@ -152,6 +166,13 @@ button{
     line-height: 24px; 
 }
 
+.box-btn-child3{
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
 .box-container{
     display: flex;
     flex-direction: row;
@@ -159,6 +180,50 @@ button{
 
 }
 
+
+.box1:hover{
+    border: 1px solid #5490F5;
+    background-color: white;
+}
+
+.box2:hover{
+    border: 1px solid #09A15C;
+    background-color: white;
+}
+
+.box3:hover{
+    border: 1px solid #FFC239;
+    background-color: white;
+}
+
+.box-btn-parent:hover{
+    background-color: white;
+    border: 1px solid #5490F5;
+    color: #5490F5;
+
+}
+
+.box-btn-child:hover{
+    color: #5490F5;
+}
+
+.box-btn-parent2:hover{
+    background-color: white;
+    border: 1px solid #09A15C;
+}
+
+.box-btn-child2:hover{
+    color: #09A15C;
+}
+ 
+.box-btn-parent3:hover{
+    background-color: white;
+    border:1px solid #FFC239;
+}
+
+.box-btn-child3:hover{
+    color: #FFC239;
+}
 .box1{
     background-color: rgba(84, 144, 245, 0.20);
 }
@@ -288,7 +353,7 @@ button{
 }
 
 .shared-btn-parent{
-    width: 122px;
+    width: 124px;
     padding: 11px 20px;
     border-radius: 8px;
     border: none;
@@ -594,3 +659,32 @@ button{
     font-size: 16px;
     font-weight: 400;
 }
+
+.news-btn-parent:hover{
+    background-color: white;
+    border: 1px solid #006A50;
+}
+
+.news-btn-child:hover{
+    color: #006A50;
+}
+
+.donate-btn:hover{
+    background-color: white;
+    border: 1px solid #006A50;
+    color: #006A50;
+    cursor: pointer;
+}
+
+.email-btn:hover{
+    background-color: white;
+    border: 1px solid #006A50;
+    color: #006A50;
+    cursor: pointer;
+}
+
+.donate-box:hover{
+    background-color: #006A50;
+    border: 1px solid #006A50;
+}
+ 
