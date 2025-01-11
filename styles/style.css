@@ -431,5 +431,102 @@ button{
 .donate-sec{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    max-width: 1280px;
+    margin: auto auto;
+    margin-bottom: 80px;
+}
+.donate-text{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+}
+.donate-heading{
+    color: #0E0E0E;
+    text-align: center;
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.donate-des{
+    color: rgba(14, 14, 14, 0.70);
+    text-align: center;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0px 88px;
+}
+
+.donate-boxes{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.donate-input-field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1032px;
+    padding: 0px 20px;
     gap: 32px;
 }
+
+.email-field{
+    border: none;
+    max-width: 1280px;
+    padding: 20px 422px;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+    color: rgba(14, 14, 14, 0.30);
+    font-family: "Fira Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+.donate-btn{
+    padding: 17px 34px;
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 1px solid rgba(14, 14, 14, 0.10);
+    background: #006A50;
+    width: 151px;
+}
+
+ 
+/*Shared style*/
+.donate-box{
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 40px;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.donate-taka{
+    color: rgba(14, 14, 14, 0.80);
+    font-family: "Fira Sans";
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.donate-box2{
+    background: #C6E4D6;
+}
+
